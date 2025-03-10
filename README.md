@@ -1,5 +1,5 @@
 # DSA210-Term-Project
-Introduction:
+##Introduction:
 I am a student from Sabancı University, and this is my DSA210 term project. My family manages two differently located branches of a burger shop in Izmir, one in a mall, the other close to a university and opened more recently. The aim is to compare the performance of these branches by analyzing data on the top-selling menu items, prices, number of customers, and the impact of competitor store openings. Additionally, I will assess whether a major trend shift occurs after a competitor's arrival and if the branch responds with campaigns.
 
 Motivation:

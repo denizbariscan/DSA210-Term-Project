@@ -6,9 +6,9 @@ I am a student from Sabancı University, and this is my DSA210 term project. My 
 Understanding the performance differences between these two branches will help identify key factors influencing sales and customer behavior. This project will analyze external factors such as competition among stores and promotions or campaigns, helping optimize business strategies. Pricing and marketing policies can be improved and efficiency can be enhanced to ensure growth by the findings.
 
 # Hypothesis:
-Null Hypothesis (H₀): There is no significant difference in profit margins and customer traffic between these two branches regarding price, marketing, and location differences.
+Null Hypothesis (H₀): There is no significant difference in profit margins and customer traffic between these two branches regarding price, weather conditions, and location differences.
 
-Alternative Hypothesis (H₁): Profit margins and customer traffic change significantly between these two branches due to differences in pricing, marketing efforts, and location factors.
+Alternative Hypothesis (H₁): Profit margins and customer traffic change significantly between these two branches due to differences in pricing, weather conditions, and location factors.
 
 # Data Source:
 Accounting records of both branches, which include sales reports, pricing differences, and customer numbers, will be the primary data source. 

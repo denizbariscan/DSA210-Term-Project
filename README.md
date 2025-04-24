@@ -8,6 +8,7 @@ Understanding the performance differences between these two branches will help i
 # Hypothesis:
 Null Hypothesis (H₀₁):
 Rainy weather effects on sales do not differ significantly between branches.
+
 Alternative Hypothesis (H₁₁):
 Rainy weather effects on sales differ significantly between branches.
 Null Hypothesis (H₀₂):

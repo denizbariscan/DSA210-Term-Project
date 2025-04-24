@@ -6,17 +6,17 @@ I am a student from Sabancı University, and this is my DSA210 term project. My 
 Understanding the performance differences between these two branches will help identify key factors influencing sales and customer behavior. This project will analyze external factors such as competition among stores and promotions or campaigns, helping optimize business strategies. Pricing and marketing policies can be improved and efficiency can be enhanced to ensure growth by the findings.
 
 # Hypothesis:
-Null Hypothesis (H₀₁):
+Null Hypothesis (H₀):
 Rainy weather effects on sales do not differ significantly between branches.
-Alternative Hypothesis (H₁₁):
+Alternative Hypothesis (H₁):
 Rainy weather effects on sales differ significantly between branches.
-Null Hypothesis (H₀₂):
+Null Hypothesis (H₀):
 There is no significant relationship between the price difference and sales quantity between the two branches.
-Alternative Hypothesis (H₁₂):
+Alternative Hypothesis (H₁):
 There is a significant relationship between the price difference and sales quantity between the two branches
-Null Hypothesis (H₀₃):
+Null Hypothesis (H₀):
 There is no significant relationship between the location type and the sales advantage.
-Alternative Hypothesis (H₁₃):
+Alternative Hypothesis (H₁):
 There is a significant relationship between the location type (mall vs. university area) and the sales advantage.
 
 # Data Source:

@@ -8,14 +8,19 @@ Understanding the performance differences between these two branches will help i
 # Hypothesis:
 Null Hypothesis (H₀):
 Rainy weather effects on sales do not differ significantly between branches.
+
 Alternative Hypothesis (H₁):
 Rainy weather effects on sales differ significantly between branches.
+
 Null Hypothesis (H₀):
 There is no significant relationship between the price difference and sales quantity between the two branches.
+
 Alternative Hypothesis (H₁):
 There is a significant relationship between the price difference and sales quantity between the two branches
+
 Null Hypothesis (H₀):
 There is no significant relationship between the location type and the sales advantage.
+
 Alternative Hypothesis (H₁):
 There is a significant relationship between the location type (mall vs. university area) and the sales advantage.
 

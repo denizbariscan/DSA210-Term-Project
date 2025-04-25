@@ -1,4 +1,4 @@
-#FINDINGS
+**FINDINGS
 
 The project was initiated by collecting the necessary documents and data from both branches. Total sales quantities and revenues between October 2024 and April 2025 were obtained from each branch. In addition, monthly revenue data and the price ranges of each branch were also provided separately.
 
@@ -8,7 +8,7 @@ Following the preprocessing phase, data analysis and visualization were performe
 
 Here are the throughout analysis of the obtained figures:
 
-#Top 15 Products by Revenue - Hilltown vs. Balçova
+**Top 15 Products by Revenue - Hilltown vs. Balçova
 Hilltown Branch:
 At the Hilltown branch, the Ohannes Cheese Burger and Regular Cheese Burger emerge as the clear revenue leaders, significantly surpassing other items. Other popular items include various burger types (Tandır, Mushroom, Classic, Smash) along with beverages like Coca-Cola and Carlsberg beer. The dominance of cheese-based burgers indicates strong customer preference toward premium menu choices at this location.
 ![ht top 15](https://github.com/user-attachments/assets/dbae5d8b-9aef-46ec-a5f6-ec57bea0899d)

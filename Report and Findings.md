@@ -12,7 +12,7 @@ Here are the throughout analysis of the obtained figures:
 
 *Hilltown Branch:*
 
-At the Hilltown branch, the Ohannes Cheese Burger and Regular Cheese Burger emerge as the clear revenue leaders, significantly surpassing other items. Other popular items include various burger types (Tandır, Mushroom, Classic, Smash) along with beverages like Coca-Cola and Carlsberg beer. Considering tandır, bifteks and smash burger are items that contain more meat, along with the general domination of meat based burgers and beers, assumption that customer base is leaned more towards premium menu items and are not underage can be made.
+At the Hilltown branch, the Ohannes Cheese Burger and Regular Cheese Burger emerge as the clear revenue leaders, significantly surpassing other items. Other popular items include various burger types (Tandır, Mushroom, Classic, Smash) along with beverages like Coca-Cola and beer. Considering tandır, bifteks and smash burger are items that contain more meat, along with the general domination of meat based burgers and beers, assumption that customer base is leaned more towards premium menu items and are not underage can be made.
 
 ![ht top 15](https://github.com/user-attachments/assets/dbae5d8b-9aef-46ec-a5f6-ec57bea0899d)
 
@@ -31,7 +31,7 @@ Hilltown emphasizes premium individual items, while Balçova prefers bundles and
 
 *Hilltown Branch:*
 
-Hilltown's revenue demonstrates strong fluctuations. Notably, revenue peaked significantly in April, marking a substantial recovery after February's notable dip. The December-January holiday period also showed increased revenue, reflecting seasonal shopping behavior typical for mall locations.
+Hilltown branch follows an unstable graph, there are many effects that may be the cause of these fluctuations, some of which we are examining in this particular research. The extreme increase in April may be due to better weather, while the drop in February may be due to various reasons, along with the month being shorter, bad weather and winter breaks. 
 
 ![ht daily](https://github.com/user-attachments/assets/162c4f08-a349-4d4d-a409-717c586760bf)
 
@@ -51,7 +51,7 @@ Hilltown experiences volatile revenue likely due to seasonality tied to mall tra
 
 **Average Temperature and Rainy Days in İzmir (Oct 2024 - Apr 2025)**
 
-Analyzing the weather data, Izmir experiences its lowest temperatures and most rainy days in December-January. Weather patterns align inversely; colder months coincide with more rainy days. Understanding these patterns is crucial for assessing their impact on consumer behavior at both locations.
+To examine the relationship between average daily values and weather conditions, data of the weather at Izmir was gathered from AccuWeather. Analyzing the weather data, Izmir experiences its lowest temperatures and most rainy days in December-January. Weather patterns align inversely; colder months coincide with more rainy days. Understanding these patterns is crucial for assessing their impact on consumer behavior at both locations.
 
 ![izmir hava](https://github.com/user-attachments/assets/1b01b200-c55d-4868-b8ec-f9a22afeea83)
 

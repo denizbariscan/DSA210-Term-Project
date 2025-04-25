@@ -32,7 +32,7 @@ Analyzing Data: Identify the correlations affecting the business performance by 
 
 Visualizing Data: Use data visualization techniques to present the findings effectively, and compare key performance metrics between the branches.
 
-Optimizing Marketing Strategies: Analyze past promotions and campaigns to develop data-driven suggestions to improve future marketing plans.
+Optimizing Marketing Strategies: Analyze what effects customer traffic to develop data-driven suggestions to improve future marketing plans.
 
 # Methodology:
 Data Collection: The data for this project will be collected from the branches' accounting records over a specific period. These records will provide insight into the number of purchases made for the most popular products and their price variations. Peak hours and days of customer numbers will be tracked and used to determine whether a specific campaign or competitor impact had a major effect.

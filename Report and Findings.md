@@ -9,6 +9,7 @@ Following the preprocessing phase, data analysis and visualization were performe
 Here are the throughout analysis of the obtained figures:
 
 **Top 15 Products by Revenue - Hilltown vs. Balçova**
+
 Hilltown Branch:
 At the Hilltown branch, the Ohannes Cheese Burger and Regular Cheese Burger emerge as the clear revenue leaders, significantly surpassing other items. Other popular items include various burger types (Tandır, Mushroom, Classic, Smash) along with beverages like Coca-Cola and Carlsberg beer. Considering tandır, bifteks and smash burger are items that contain more meat, along with the general domination of meat based burgers and beers, assumption that customer base is leaned more towards premium menu items and are not underage can be made.
 
@@ -23,6 +24,19 @@ Balçova’s revenue leaders differ notably; Bilader Menü is the top product, f
 
 Comparative Analysis:
 Hilltown emphasizes premium individual items, while Balçova prefers bundles and diverse offerings. This suggests distinct customer profiles at each location, with Hilltown appealing to individual customers with disposable income and Balçova targeting student groups.
+
+**Average Daily Revenue by Month (October 2024 - April 2025)**
+
+Hilltown Branch:
+Hilltown's revenue demonstrates strong fluctuations. Notably, revenue peaked significantly in April, marking a substantial recovery after February's notable dip. The December-January holiday period also showed increased revenue, reflecting seasonal shopping behavior typical for mall locations.
+
+<img width="605" alt="Screenshot 2025-04-25 at 16 27 23" src="https://github.com/user-attachments/assets/5b422acd-608f-4806-b2ec-462190cfec68" />
+
+Balçova Branch:
+Balçova reveals a consistent upward growth trend across all months, without significant fluctuations. This consistent increase highlights the branch’s progressive market penetration and stable customer acquisition, especially around the university vicinity.
+
+Comparative Analysis:
+Hilltown experiences volatile revenue likely due to seasonality tied to mall traffic, while Balçova shows steady growth indicative of a stable and gradually expanding customer base around the university.
 
 
 

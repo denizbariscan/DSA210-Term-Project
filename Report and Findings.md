@@ -260,6 +260,39 @@ This analysis reveals that the most predictive features are those related to fin
 
 The results of this graph is approximately the same as that of Hilltown Branch, same interpretations apply.
 
+To assess the reliability of the Random Forest model used to predict May 2025 revenue for the Balçova branch, we applied Leave-One-Out Cross Validation (LOOCV).
+
+![image](https://github.com/user-attachments/assets/90b9a475-9ab5-4812-a684-d603dd0da0b8)
+
+The model achieved an R² score of 0.944, indicating that approximately 94.4% of the variation in monthly revenue is explained by the selected features. This reflects a very strong explanatory capability, suggesting that the model effectively captures the underlying patterns in the data.
+
+The LOOCV MAE was calculated as ₺244,060.38, which means the model’s predictions deviate from the actual monthly revenue by an average of about ₺244K. Considering that Balçova’s typical monthly revenue ranges between ₺1.5 million and ₺2 million, this level of error is within acceptable bounds for financial forecasting.
+
+The Relative MAE was found to be 15.18%, showing that the prediction error constitutes a moderate percentage of the actual revenue. While not as low as in the Hilltown model, this level of relative error still allows the model to be considered reliable and informative for future revenue planning.
+
+**Differences Between the Models**
+
+The Random Forest model outperformed XGBoost in terms of R² score, likely due to the small dataset size and the strength of a few dominant features such as average revenue and price. While XGBoost builds trees sequentially and may be more sensitive to noise in limited data, Random Forest builds trees independently, which helps it generalize better in this context. As a result, Random Forest provided more stable and accurate predictions for this particular forecasting task.
+
+**Conclusion**
+
+İşte raporuna uygun, analitik bulgulara dayalı, açık ve profesyonel bir **Conclusion** (Sonuç) bölümü önerisi:
+
+---
+
+### **Conclusion**
+
+This study aimed to analyze and compare the sales performance of two branches of a restaurant chain—Hilltown and Balçova—by combining traditional data analysis with machine learning techniques. The findings reveal distinct customer profiles and consumption behaviors at each location. Hilltown’s customer base favors premium, meat-based items and demonstrates volatility in revenue tied to seasonal and vacation periods. In contrast, Balçova, located near a university, shows more consistent growth, a stronger preference for bundled menu offerings, and limited sensitivity to high school vacation schedules.
+
+Weather and vacation patterns showed varying degrees of influence on each branch. Correlation analyses indicated that school vacations moderately affect Hilltown sales but have negligible impact on Balçova. Temperature was positively correlated with Hilltown revenue, while Balçova exhibited a slight negative relationship—likely due to differences in customer routines and student presence during warmer periods.
+
+Hypothesis tests confirmed that location type has a statistically significant impact on revenue performance, favoring mall-based locations like Hilltown in absolute revenue terms. On the other hand, price differences alone did not explain variations in sales, indicating the importance of other factors such as product types, marketing, and local demographics.
+
+Machine Learning models—XGBoost and Random Forest—were applied to forecast May 2025 revenues using key features including historical averages, weather, vacation schedules, total units sold, and pricing. While both models performed reasonably well, Random Forest consistently achieved higher R² scores and lower error rates, especially for Hilltown, suggesting it was more suited to the data structure and feature patterns.
+
+In summary, the project demonstrates that a data-driven approach combining exploratory analysis, correlation tests, hypothesis testing, and machine learning can yield valuable business insights. These insights can inform location-specific marketing, pricing, and operational strategies, enhancing decision-making and performance forecasting across branches.
+
+
 
 
 

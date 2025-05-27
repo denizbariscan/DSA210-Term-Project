@@ -154,13 +154,49 @@ Pricing strategies should focus more on enhancing product appeal and bundle offe
 
 Seasonal marketing and special campaigns aligned with weather trends may optimize customer engagement at both locations, utilizing weather-related insights to predict shifts in customer flow and preferences effectively.
 
+**Application of Machine Learning Models**
 
+After the initial findings and evaluation of hypotheses, Machine Learning models were applied to estimate the monthly revenue of May 2025 for both the Hilltown and Balçova branches.
+Two different models were developed and compared: XGBoost and Random Forest. These models were selected due to the small dataset size (7 months), non-linear relationships (multiple interacting factors influencing revenue), and to ensure robustness against outliers and noise.
+Same features were used for both models: Average of previous monthly revenues, number of rainy days, number of vacation days excluding weekends (normally, high school vacation days are used for Hilltown and University for Balçova, however, in May they were both the same in İzmir), total sales count of the branch (from October to May), and average prices.
 
+Below are the results and interpretations:
 
+***XGBoost Model***
 
+*Hiltown Branch:*
 
+Monthly revenue for Hilltown Branch in May 2025 was predicted as: ₺3,228,047.00.
 
+<img width="869" alt="Screenshot 2025-05-27 at 22 58 12" src="https://github.com/user-attachments/assets/13d9338c-d532-4efc-b143-1cc3ebd8dd10" />
 
+After this calculation, to validate the model’s reliability, we performed Leave-One-Out Cross Validation (LOOCV).
+
+In order to figure out the predictive power of the Machine Learning model built for estimating the monthly revenue at the Hilltown Branch in May 2025, two key metrics were used:  Mean Absolute Error (MAE) and R-squared (R²) score.
+
+The R² score, also known as the coefficient of determination, was calculated as 0.673. This value indicates that approximately 67.3% of the variance in the monthly revenue can be explained by the features used in the model.
+
+Additionally, the Relative MAE was calculated as 5.33%, which means that the model's predictions deviated from the actual monthly revenue by an average of only 5.33%. This low percentage confirms that the prediction error is small in proportion to the revenue scale.
+
+The LOOCV MAE was approximately ₺172,582.27, which further confirms the model’s ability to make consistent predictions with acceptable deviation from actual revenue values.
+
+In practical terms, this means the model has a moderate-to-strong explanatory power. While it does not capture all of the variability in revenue (due to external factors like promotions, possible rivals, customer behavior, etc.), it performs reasonably well given the limited amount of training data (7 months).
+
+Although the R² score is not perfect, model can be considered reliable for forecasting, especially with a limited data such as this one.
+
+*Balçova Branch:*
+
+Monthly revenue for Balçova Branch in May 2025 was predicted as: ₺1,566,236.50.
+
+<img width="869" alt="Screenshot 2025-05-27 at 23 04 35" src="https://github.com/user-attachments/assets/c80dd98c-5b47-4d53-9603-186900b9e428" />
+
+The R² score, also known as the coefficient of determination, was calculated as 0.679. This value indicates that approximately 67.9% of the variance in the monthly revenue can be explained by the features used in the model.
+
+The Relative MAE was calculated as 17.06%, which shows that the model’s predictions deviate on average by 17.06% from actual revenue values. While higher than in Hilltown, this still reflects a level of error that is reasonable for business forecasting, especially considering Balçova is a new branch.
+
+***Random Forest***
+
+*Hilltown Branch:*
 
 
 

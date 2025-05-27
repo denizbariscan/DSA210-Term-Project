@@ -198,10 +198,67 @@ The Relative MAE was calculated as 17.06%, which shows that the model’s predic
 
 *Hilltown Branch:*
 
+Monthly revenue for Hilltown Branch in May 2025 was predicted as: ₺3,230,526.25.
+
+<img width="869" alt="Screenshot 2025-05-27 at 23 18 54" src="https://github.com/user-attachments/assets/4fb45737-d266-4146-b7b5-7bfadfbb9636" />
+
+This line chart shows how much each feature contributed to the model’s predictions. It reflects the relative importance of each variable in the Random Forest model.
+
+*Average Revenue:* The most influential feature (~0.42). The model heavily relies on past revenues when estimating future performance.
+
+*Average Price:* The second most important feature (~0.37). This indicates that product pricing plays a key role in shaping revenue.
+
+*Rainy days:* Moderately important (~0.12). Weather conditions seem to have a measurable, but not major effect on revenue.
+
+*School Vacations and Total Sales Count:* These have relatively low importance. The model does not strongly rely on vacation days or total sales count to make predictions.
+
+The model primarily bases its predictions on past revenue and pricing, while seasonal effects like school holidays and rainfall play a minor, supportive role.
+
+<img width="869" alt="Screenshot 2025-05-27 at 23 23 39" src="https://github.com/user-attachments/assets/866ee67c-e8a1-4ace-9b83-9eda051e990d" />
+
+This plot shows how much of the model’s predictive power is accumulated by adding features in descending order of importance.
+
+*Average Revenue + Average Price:* Together, they account for over 80% of the model’s explanatory power.
+
+*Adding Rainy Days:* Raises the cumulative importance above 90%, meaning just the top three features drive almost all predictions.
+
+*School Vacations and Total Sales Count:* These add minimal additional explanatory power but help the model fine-tune its predictions.
+
+This graph suggests that the model could retain high performance even with a reduced set of key features, improving interpretability without sacrificing much accuracy.
+
+To assess the reliability of the Random Forest model used to predict May 2025 revenue for the Hilltown branch, we applied Leave-One-Out Cross Validation (LOOCV).
+
+![image](https://github.com/user-attachments/assets/f2470401-ac16-4307-ad0f-25e27beb0a8f)
+
+The R² score was calculated as 0.892, indicating that the model explains approximately 89.2% of the variance in monthly revenue. This reflects a very strong explanatory power.
+
+The LOOCV (Leave-One-Out Cross Validation) MAE was approximately ₺136,321.57, meaning that, on average, the model’s predictions deviate from the actual monthly revenue by around ₺136K. Considering that total monthly revenues at this branch exceed ₺3 million, this error is relatively low and indicates strong forecasting performance.
+
+In addition, the Relative MAE was calculated as 4.21%, representing the error as a percentage of the average revenue. A relative error below 5% is considered highly acceptable and robust, especially in financial forecasting contexts, where even small improvements in accuracy can have significant implications.
+
+Overall, the model demonstrates high predictive reliability and is well-suited for use in forecasting and business planning scenarios.
+
+*Balçova Branch:*
+
+Monthly revenue for Balçova Branch in May 2025 was predicted as: ₺1,606,206.85.
 
 
+<img width="869" alt="Screenshot 2025-05-27 at 23 36 16" src="https://github.com/user-attachments/assets/46ea8867-dbf2-4b65-97d1-79a8f82f6062" />
+
+*Average Revenue:* Same as Hilltown, the most influential feature (~0.42). 
+
+*Average Price:* The second most important feature (~0.34). Again, close to the Hilltown feature.
+
+*Rainy days:* Moderately important (~0.18). Weather conditions for Balçova appear to be a little more important than that of Hilltown.
+
+*School Vacations and Total Sales Count:* These have relatively low importance, same with Hilltown.
+
+This analysis reveals that the most predictive features are those related to financial and behavioral trends (revenue, pricing), while seasonal and operational variables (vacations, sales count) play only a supporting role. 
 
 
+<img width="869" alt="Screenshot 2025-05-27 at 23 41 03" src="https://github.com/user-attachments/assets/28be2456-7689-4dc5-9bd8-cbf65ee02574" />
+
+The results of this graph is approximately the same as that of Hilltown Branch, same interpretations apply.
 
 
 

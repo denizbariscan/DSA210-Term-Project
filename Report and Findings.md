@@ -276,12 +276,6 @@ The Random Forest model outperformed XGBoost in terms of R² score, likely due t
 
 **Conclusion**
 
-İşte raporuna uygun, analitik bulgulara dayalı, açık ve profesyonel bir **Conclusion** (Sonuç) bölümü önerisi:
-
----
-
-### **Conclusion**
-
 This study aimed to analyze and compare the sales performance of two branches of a restaurant chain—Hilltown and Balçova—by combining traditional data analysis with machine learning techniques. The findings reveal distinct customer profiles and consumption behaviors at each location. Hilltown’s customer base favors premium, meat-based items and demonstrates volatility in revenue tied to seasonal and vacation periods. In contrast, Balçova, located near a university, shows more consistent growth, a stronger preference for bundled menu offerings, and limited sensitivity to high school vacation schedules.
 
 Weather and vacation patterns showed varying degrees of influence on each branch. Correlation analyses indicated that school vacations moderately affect Hilltown sales but have negligible impact on Balçova. Temperature was positively correlated with Hilltown revenue, while Balçova exhibited a slight negative relationship—likely due to differences in customer routines and student presence during warmer periods.

@@ -159,6 +159,7 @@ Seasonal marketing and special campaigns aligned with weather trends may optimiz
 After the initial findings and evaluation of hypotheses, Machine Learning models were applied to estimate the monthly revenue of May 2025 for both the Hilltown and Balçova branches.
 Two different models were developed and compared: XGBoost and Random Forest. These models were selected due to the small dataset size (7 months), non-linear relationships (multiple interacting factors influencing revenue), and to ensure robustness against outliers and noise.
 Same features were used for both models: Average of previous monthly revenues, number of rainy days, number of vacation days excluding weekends (normally, high school vacation days are used for Hilltown and University for Balçova, however, in May they were both the same in İzmir), total sales count of the branch (from October to May), and average prices.
+The rainy weather predictions for May 2025 were gathered from AccuWeather, and school vacation days for May in İzmir are: May 1st and May 19th.
 
 Below are the results and interpretations:
 
